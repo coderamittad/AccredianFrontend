@@ -3,7 +3,7 @@ import React from "react";
 import { PiHeadsetFill } from "react-icons/pi";
 import { FaAngleRight } from "react-icons/fa6";
 
-function Ads() {
+function Support() {
   return (
     <div className='max-w-4xl mx-auto rounded-lg bg-[#1A73E8] p-6 flex justify-between items-center mt-16 mb-10'>
       <div className='flex justify-start items-center gap-5'>
@@ -29,4 +29,4 @@ function Ads() {
   );
 }
 
-export default Ads;
+export default Support;

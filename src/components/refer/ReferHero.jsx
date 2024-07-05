@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import "./Refer.css";
 import ReferBenefits from "../benefits/ReferBenefits";
 import FAQs from "../../pages/FAQs";
+import Support from "../../pages/Support";
 
 function ReferHero() {
   const [selectedBtn, setSelectedBtn] = React.useState("refer");
@@ -96,7 +97,7 @@ function ReferHero() {
       )}
       {selectedBtn === "benefits" && <ReferBenefits />}
       {selectedBtn === "faqs" && <FAQs />}
-      {selectedBtn === "support" && <div>Support</div>}
+      {selectedBtn === "support" && <Support />}
     </div>
   );
 }

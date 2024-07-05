@@ -1,7 +1,7 @@
 import ReferBenefits from "../components/benefits/ReferBenefits";
 import Refer from "../components/refer/Refer";
 import ReferHero from "../components/refer/ReferHero";
-import Ads from "./Ads";
+import Support from "./Support";
 import FAQs from "./FAQs";
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
       <Refer />
       <ReferBenefits />
       <FAQs />
-      <Ads />
+      <Support />
     </div>
   );
 }

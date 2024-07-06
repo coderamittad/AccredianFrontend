@@ -24,7 +24,7 @@ export default function PositionedMenu() {
         onClick={handleClick}
       >
         <span className='flex items-center gap-1 px-3 py-2 rounded-md bg-[#1A73E8] text-white'>
-          Dashboard
+          Courses
           <FaChevronDown />
         </span>
       </Button>
@@ -43,9 +43,24 @@ export default function PositionedMenu() {
           horizontal: "left",
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>
+          Professional Certificate Program in Product Management
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          PG Certificate Program in Strategic Product Management
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          Executive Program in Data Driven Product Management
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          Executive Program in Product Management and Digital Transformation
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          Executive Program in Product Management
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          Advanced Certification in Product Management
+        </MenuItem>
       </Menu>
     </div>
   );

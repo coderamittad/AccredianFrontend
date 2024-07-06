@@ -7,11 +7,14 @@ import Switch from "@mui/material/Switch";
 import { Button } from "@mui/material";
 import { FaChevronDown } from "react-icons/fa";
 import { Button as Btn } from "flowbite-react";
+import Referral from "../../pages/Referral";
 
 function ReferBenefits() {
   const [selectedBtn, setSelectedBtn] = React.useState("all");
+  const [openModal, setOpenModal] = React.useState(false);
   return (
     <div className='max-w-4xl mx-auto py-7'>
+      <Referral openModal={openModal} setOpenModal={setOpenModal} />
       <h2 className='text-center font-[600] text-[20px] leading-[32px] md:text-[27.66px] md:leading-[43px] text-[#1A202C]'>
         What Are The <span className='text-[#1a73e8]'>Referral Benefits</span>?
       </h2>
@@ -209,6 +212,8 @@ function ReferBenefits() {
         <Button
           variant='contained'
           className='font-[400] text-[20px] leading-[24px] px-5 py-1'
+          type='button'
+          onClick={() => setOpenModal(true)}
         >
           Refer Now
         </Button>

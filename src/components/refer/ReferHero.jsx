@@ -41,7 +41,6 @@ function ReferHero() {
             ) : (
               "Support"
             )}
-            Support
           </button>
         </div>
       </div>

@@ -40,9 +40,14 @@ function Referral({ openModal, setOpenModal }) {
         setReferSuccess("Thank you for your referral !!!");
         setLoading(false);
         setFormData({});
+        // Set a timer to deactivate the success message and clear the form after 1 minute
+        setTimeout(() => {
+          setReferSuccess(null);
+          setFormData({});
+        }, 60000); // 60000 milliseconds = 1 minute
       }
     } catch (error) {
-      setPublishError("Something went wrong last", error);
+      setPublishError("Something went wrong", error);
       setLoading(false);
     }
   };
@@ -59,7 +64,7 @@ function Referral({ openModal, setOpenModal }) {
         onClose={() => setOpenModal(false)}
         size='4xl'
       >
-        <Modal.Header>Refer with your friends and earn 💵💵 </Modal.Header>
+        <Modal.Header>Refer with your friends and earn 💵💵</Modal.Header>
         <Modal.Body className='p-0'>
           <div className='grid grid-cols-2 bg-[#eef5ff] relative overflow-hidden'>
             <img
@@ -89,8 +94,9 @@ function Referral({ openModal, setOpenModal }) {
                   placeholder='User Name'
                   required
                   id='referredBy'
-                  addon=<MdEmail size='20' />
+                  addon={<MdEmail size='20' />}
                   onChange={handleChange}
+                  value={formData.referredBy}
                   className='focus:ring-0'
                 />
 
@@ -100,8 +106,9 @@ function Referral({ openModal, setOpenModal }) {
                   placeholder='Refer Friend Name'
                   required
                   id='name'
-                  addon=<MdEmail size='20' />
+                  addon={<MdEmail size='20' />}
                   onChange={handleChange}
+                  value={formData.name}
                   className='focus:ring-0'
                 />
 
@@ -111,8 +118,9 @@ function Referral({ openModal, setOpenModal }) {
                   placeholder='name@Company.com'
                   required
                   id='email'
-                  addon=<MdEmail size='20' />
+                  addon={<MdEmail size='20' />}
                   onChange={handleChange}
+                  value={formData.email}
                   className='focus:ring-0'
                 />
                 {referSuccess && (

@@ -16,8 +16,9 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 - **Tailwind CSS** - Utility-first CSS framework
 - **React Router DOM** - For routing
 
-## 📦 Setup Instructions
 
+## 📦 Setup Instructions
+---
 
 1. **Clone the repository**
    ```bash

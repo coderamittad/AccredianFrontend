@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: `https://accredinbackend.netlify.app`,
+        target: `http://localhost:${process.env.PORT || 1995}`,
         secure: false,
       },
     },

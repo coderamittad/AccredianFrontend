@@ -1,7 +1,3 @@
-
-### README.md for Frontend
-
-
 ## 🌟 Refer & Earn Frontend
 
 Welcome to the frontend of the Refer & Earn application! This user-friendly interface allows users to easily refer others and earn rewards.

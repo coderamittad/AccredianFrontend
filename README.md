@@ -18,12 +18,11 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 
 
 ## 📦 Setup Instructions
----
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/refer-earn-backend.git
-  ```
+   ```
 
 
 2. **Backend Setup**:

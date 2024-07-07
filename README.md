@@ -17,19 +17,18 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 - **React Router DOM** - For routing
 
 
-## 📦 Setup Instructions
+## Setup Instructions
+
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/refer-earn-backend.git
    ```
 
-
 2. **Backend Setup**:
     ```bash
     npm install
     ``` 
-
 
 3. **Start the server**:
     ```bash
@@ -77,4 +76,10 @@ For any questions or inquiries, please contact:
 - Email: chandankumarsahoo19@gmail.com
 - GitHub: https://github.com/Chandan8018/
 
-Feel free to reach out for any questions, suggestions, or contributions. Happy coding!
+### Notes:
+
+1. **Repository URL**: Make sure to update the repository URL (`https://github.com/Chandan8018/AccredianFrontend.git`) with the actual URL of your frontend repository.
+2. **Environment Variables**: If there are specific environment variables required for the frontend (e.g., API base URL), mention them in the README.
+3. **Consistency**: Ensure the names and paths of images in the `public` directory match those in the README.
+
+Feel free to adjust any details to better fit your project’s specific setup and requirements.

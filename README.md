@@ -28,19 +28,19 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 
 
 1. **Clone the repository**
-    ```bash
-    git clone https://github.com/yourusername/refer-earn-backend.git
-    ```
+   ```bash
+   git clone https://github.com/yourusername/refer-earn-backend.git
+  ```
 
 2. **Backend Setup**:
-    ```bash
-    npm install
-    ``` 
+   ```bash
+   npm install
+  ``` 
 
 3. **Start the server**:
-    ```bash
-    npm run dev
-    ``` 
+   ```bash
+   npm run dev
+  ``` 
 
 ## Folder Structure
 

@@ -29,18 +29,18 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/refer-earn-backend.git
-
+    git clone https://github.com/Chandan8018/AccredianFrontend.git ↩
+    cd AccredianFrontend ↩
     ```
 
 2. **Backend Setup**:
     ```bash
-    npm install
+    npm install ↩
     ``` 
 
 3. **Start the server**:
     ```bash
-    npm run dev
+    npm run dev ↩
     ``` 
 
 ## Folder Structure

@@ -17,13 +17,20 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 - **React Router DOM** - For routing
 
 
-## Setup Instructions
+## 📦 Setup Instructions
+
+### Prerequisites
+
+- Node.js (version >= 14)
+- NPM or Yarn package manager
+
+### Getting Started
 
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/refer-earn-backend.git
-   ```
+    ```bash
+    git clone https://github.com/yourusername/refer-earn-backend.git
+    ```
 
 2. **Backend Setup**:
     ```bash

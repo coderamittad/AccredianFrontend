@@ -1,8 +1,8 @@
 
 ### README.md for Frontend
 
-```markdown
-# 🌟 Refer & Earn Frontend
+
+## 🌟 Refer & Earn Frontend
 
 Welcome to the frontend of the Refer & Earn application! This user-friendly interface allows users to easily refer others and earn rewards.
 
@@ -19,28 +19,29 @@ Welcome to the frontend of the Refer & Earn application! This user-friendly inte
 
 ## 📦 Setup Instructions
 
-### Prerequisites
+## Prerequisites
 
 - Node.js (version >= 14)
 - NPM or Yarn package manager
 
-### Getting Started
+## Getting Started
 
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/refer-earn-backend.git
-  ```
+    ```bash
+    git clone https://github.com/yourusername/refer-earn-backend.git
+
+    ```
 
 2. **Backend Setup**:
-   ```bash
-   npm install
-  ``` 
+    ```bash
+    npm install
+    ``` 
 
 3. **Start the server**:
-   ```bash
-   npm run dev
-  ``` 
+    ```bash
+    npm run dev
+    ``` 
 
 ## Folder Structure
 

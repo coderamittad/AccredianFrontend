@@ -4,6 +4,7 @@ import referHeroImg from "../assets/referHero.png";
 import money from "../assets/money.png";
 import CustomizedProgressBars from "../components/spinner/CustomizedProgressBars";
 import { MdEmail } from "react-icons/md";
+import { FaUser, FaUserFriends } from "react-icons/fa";
 
 function Referral({ openModal, setOpenModal }) {
   const [formData, setFormData] = React.useState({});
@@ -94,7 +95,7 @@ function Referral({ openModal, setOpenModal }) {
                   placeholder='User Name'
                   required
                   id='referredBy'
-                  addon={<MdEmail size='20' />}
+                  addon={<FaUser size='20' />}
                   onChange={handleChange}
                   value={formData.referredBy}
                   className='focus:ring-0'
@@ -106,7 +107,7 @@ function Referral({ openModal, setOpenModal }) {
                   placeholder='Refer Friend Name'
                   required
                   id='name'
-                  addon={<MdEmail size='20' />}
+                  addon={<FaUserFriends size='20' />}
                   onChange={handleChange}
                   value={formData.name}
                   className='focus:ring-0'

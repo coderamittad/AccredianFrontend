@@ -39,7 +39,7 @@ function Header() {
 
       <Navbar.Collapse>
         <Navbar.Link active={path === "/refer"} as={"div"}>
-          <Link to='/refer'>Refer & Earn</Link>
+          <Link to='/refer'>Refer & Earn Money</Link>
         </Navbar.Link>
         <Navbar.Link active={path === "/resources"} as={"div"}>
           <Link to='/resources'>Resources</Link>

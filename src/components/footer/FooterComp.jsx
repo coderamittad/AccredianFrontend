@@ -91,23 +91,22 @@ function FooterComp() {
               <Footer.Title title='Contact Us' className='text-white' />
               <div className='text-white text-xs flex flex-col gap-2'>
                 <span>
-                  Email us (For Data Science Queries): admissions@accredian.com
+                  Email us (For Data Science Queries): amittad992004@gmail.com
                 </span>
                 <span href='#'>
-                  Email us (For Product Management Queries):pm@accredian.com
+                  Email us (For Product Management Queries):tadamit2004@gmail.com
                 </span>
                 <span href='#'>
-                  Data Science Admission Helpline:+91 9079653292 (9 AM - 7 PM)
+                  Data Science Admission Helpline:+91 788828673 (9 AM - 7 PM)
                 </span>
                 <span href='#' className='text-white text-xs'>
-                  Product Management Admission Helpline:+91 9625811095
+                  Product Management Admission Helpline:+91 7888286773
                 </span>
                 <span href='#' className='text-white text-xs'>
-                  Enrolled Student Helpline: +91 7969322507
+                  Enrolled Student Helpline: +91 7888286773
                 </span>
                 <span href='#' className='text-white text-xs'>
-                  Office Address: 4th Floor, 250, Phase IV, Udyog Vihar, Sector
-                  18, Gurugram, Haryana 122015
+                  Office Address: 4th Floor, ubmale naka,dharashiv
                 </span>
               </div>
               <h2 className='text-white mt-2'>Why Accredian</h2>
